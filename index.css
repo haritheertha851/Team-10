@@ -1,0 +1,166 @@
+@font-face {
+    font-family: monster;
+    src: url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: lato;
+    src: url("/fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: rubik;
+    src: url("/fonts/Rubik/Rubik-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: play;
+    src: url("/fonts/Playwrite_AU_SA/PlaywriteAUSA-VariableFont_wght.ttf");
+}
+
+
+*{
+    background: rgb(218, 213, 213);
+}
+#home {
+    background: rgb(218, 213, 213);
+    font-family: monster;
+}
+#home header.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 150px;
+    padding-right: 50px;
+}
+#home header div.left {
+    display: flex;
+    align-items: center;
+}
+#home header div.left h1 {
+    margin-left: 70px;
+   margin-right: 60px;
+   color: orange;
+   font-size: 60px;
+}
+#home header div.left ul {
+     display: flex;
+    align-items: center;
+    list-style: none;
+}
+#home header div.left ul li {
+    margin-right: 40px;
+}
+#home header div.left ul li:last-child {
+    margin-right: 0px;
+}
+#home header div.left ul li a {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+#home header div.right ul li a.button {
+    padding: 15px;
+    border-bottom: 4px;
+    color: #f50000;
+    text-decoration: none;
+}
+
+.contact-p {
+    text-decoration: none;
+}
+
+header.middle div.mid h2 {
+    margin-left: 70px;
+   font-size: 40px;
+}
+header.middle div.mid p {
+    margin-left: 70px;
+    transform: translateY(-380px);
+}
+header.middle div.mid h1 {
+    margin-left: 70px;
+   font-size: 50px;
+}
+header.middle div.mid img {
+    size: cover;
+    margin-left: 800px;
+    transform: translateY(-350px);
+    border-radius: 50%;
+}
+#Aman {
+ background:  rgb(218, 213, 213);;
+ font-family: lato;
+}
+
+#Aman header.second div.web h2 {
+    margin-left: 70px;
+    font-size: 40px;
+    transform: translateY(-2px);
+}
+#Aman header.second div.web h1 {
+    margin-left: 70px;
+    font-size: 50px;
+    transform: translateY(-30px);
+}
+#Aman header.second div.web img {
+
+    size: cover;
+    margin-left: 800px;
+    transform: translateY(-450px);
+    border-radius: 50%;
+}
+#Aman header.second div.web p {
+    margin-left: 70px;
+    transform: translateY(-450px);
+}
+#Siphin-Suraj {
+ background:  rgb(218, 213, 213);;
+ font-family: rubik;
+}
+
+#Siphin-Suraj header.third div.master h2 {
+    margin-left: 70px;
+    font-size: 40px;
+}
+#Siphin-Suraj header.third div.master h1 {
+    margin-left: 70px;
+    font-size: 50px;
+}
+#Siphin-Suraj header.third div.master img {
+    size: cover;
+    margin-left: 800px;
+    transform: translateY(-400px);
+    border-radius: 50%;
+}
+#Siphin-Suraj header.third div.master p {
+    margin-left: 70px;
+    transform: translateY(-350px);
+}
+#nafeesath {
+    background:  rgb(218, 213, 213);;
+    font-family: play;
+    
+}
+
+#nafeesath header.fourth div.mirshana h2 {
+    margin-left: 70px;
+    font-size: 40px;
+}
+#nafeesath header.fourth div.mirshana h1 {
+    margin-left: 70px;
+    font-size: 50px;
+    transform: translateY(-0px);
+}
+#nafeesath header.fourth div.mirshana img {
+    size: cover;
+    margin-left: 800px;
+    transform: translateY(-400px);
+    border-radius: 50%;
+}
+#nafeesath header.fourth div.mirshana p {
+    margin-left: 70px;
+    transform: translateY(-400px);
+}
