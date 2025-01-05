@@ -164,3 +164,28 @@ header.middle div.mid img {
     margin-left: 70px;
     transform: translateY(-400px);
 }
+#jerwish {
+    background:  rgb(218, 213, 213);;
+    font-family: play;
+    
+}
+
+#jerwish header.fiveth div.friend h2 {
+    margin-left: 70px;
+    font-size: 40px;
+}
+#jerwish header.fiveth div.friend h1 {
+    margin-left: 70px;
+    font-size: 50px;
+    transform: translateY(-0px);
+}
+#jerwish header.fiveth div.friend img {
+    size: cover;
+    margin-left: 800px;
+    transform: translateY(-400px);
+    border-radius: 50%;
+}
+#jerwish header.fiveth div.friend p {
+    margin-left: 70px;
+    transform: translateY(-400px);
+}
